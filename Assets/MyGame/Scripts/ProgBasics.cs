@@ -5,7 +5,8 @@ using UnityEngine;
 public class ProgBasics : MonoBehaviour {
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+    {
         Debug.Log("erste Tests mit Operatoren");
 
         Debug.Log("Addition " + (5+2));
@@ -51,8 +52,7 @@ public class ProgBasics : MonoBehaviour {
     }
 
     public string MyText(string myName)
-    {
-        Debug.Log("Drama ");
+    { 
         return "Drama " + " " + myName;
     }
 
